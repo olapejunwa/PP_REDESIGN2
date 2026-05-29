@@ -12,7 +12,7 @@ export default function Products() {
     <main id="main" className="pt-16 md:pt-20">
       <section className="bg-cream py-20 md:py-28">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="font-display text-4xl md:text-6xl text-ink">
+          <h1 className="font-display text-4xl md:text-6xl text-brand-gradient">
             We didn't build three separate products. We built one journey in three stages.
           </h1>
           <p className="mt-6 text-ink-muted text-base md:text-lg">
@@ -50,7 +50,7 @@ export default function Products() {
               },
               {
                 label: 'Find an OWA Agent Near You',
-                href: 'https://wa.me/2348024247865?text=Hi%2C%20I%27d%20like%20to%20find%20an%20OWA%20agent%20near%20me',
+                href: 'https://wa.me/2348163489375?text=Hi%2C%20I%27d%20like%20to%20find%20an%20OWA%20agent%20near%20me',
                 external: true,
                 variant: 'secondary',
               },
@@ -113,7 +113,8 @@ export default function Products() {
             ctas={[
               {
                 label: 'Get Audited in 7 Days →',
-                href: '/contact?subject=AuditMe',
+                href: 'https://auditme.com.ng',
+                external: true,
                 variant: 'primary',
               },
               {
